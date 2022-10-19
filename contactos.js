@@ -12,6 +12,7 @@ const contactos  = [
             direccion: 'Via al Mar',
         }
     },
+    
     {
         id: 2,
         nombre: 'Napoleon',
@@ -69,6 +70,20 @@ alert ("Contacto eliminado de la lista");
 eliminar();
 
 
+function actualizar(){
+    let obj = { id: 5,
+    nombre: 'Matador',
+    apellido: 'fedelobo',
+    telefono: 3014567897,
+    ubicacion: {
+        ciudad: 'Alpes',
+        direccion: 'Cra 54 # 70',
+    }}
+    contactos.splice(2,1,obj) 
+        
+      }
+      actualizar();
+    
 
 function imprimir(){
 console.table(contactos);
