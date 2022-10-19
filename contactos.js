@@ -12,7 +12,6 @@ const contactos  = [
             direccion: 'Via al Mar',
         }
     },
-    
     {
         id: 2,
         nombre: 'Napoleon',
